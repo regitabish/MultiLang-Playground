@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/shiba/Documents/multiLang-Playground/Functional-Programinng/11-1.scala:1:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef increment(x: Int):Int = {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
