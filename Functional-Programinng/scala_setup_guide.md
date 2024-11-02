@@ -8,11 +8,7 @@
 ## ステップ1: sbtのダウンロードとインストール
 
 1. **Coursierを使用してsbtをインストールするためのコマンドを実行します。**  
-   以下のコマンドをターミナルで実行します。
-
-   ```bash
-   curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
-   ```
+   https://www.scala-sbt.org/download/　からstbをダウンロード
 
 2. **ダウンロードが正しく行われたか確認します。**  
    Coursierのヘルプを表示するために、以下のコマンドを実行します。
