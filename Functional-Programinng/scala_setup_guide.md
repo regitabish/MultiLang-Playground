@@ -8,10 +8,10 @@
 ## ステップ1: sbtのダウンロードとインストール
 
 1. **Coursierを使用してsbtをインストールするためのコマンドを実行します。**
-   以下からstbをダウンロード
+   以下からsbtをダウンロード
    https://www.scala-sbt.org/download/
 
-3. **ダウンロードが正しく行われたか確認します。**  
+2. **ダウンロードが正しく行われたか確認します。**  
    Coursierのヘルプを表示するために、以下のコマンドを実行します。
 
    ```bash
@@ -26,7 +26,7 @@
 
    PATHにCoursierが追加する必要がある。
 
-4. **PATHにCoursierを追加するコマンド**  
+3. **PATHにCoursierを追加するコマンド**  
    CoursierをPATHに追加するには、以下のコマンドを実行します。
 
    ```bash
@@ -57,20 +57,28 @@
    sbt compile
    ```
 
-## ステップ3: REPLの使用
+## ステップ3: Scalaファイルの作成と使用
 
-1. **Scala REPLを起動します。**
+1. **練習問題として解いたScalaファイルを`src/main/scala`ディレクトリに作成します。**  
+   例えば、`11-1-1.scala`のようなファイル名で保存します。これにより、`Main.scala`と同じ場所にファイルが置かれます。
+ <pre>  
+.
+└── src
+    └── main
+        └── scala
+            ├── 11-1-1.scala
+            └── Main.scala
+ </pre>
+2. **Scala REPLを起動します。**
 
    ```bash
    scala
    ```
 
-2. **コードを入力してテストします。**
+3. **ScalaファイルをREPLで実行するために、以下のコマンドを使用します。**
 
    ```scala
-   def increment(x: Int): Int = {
-       x + 1
-   }
+   :load src/main/scala/11-1-1.scala
    ```
 
 ## ステップ4: REPLから退出
