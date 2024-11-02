@@ -7,10 +7,11 @@
 
 ## ステップ1: sbtのダウンロードとインストール
 
-1. **Coursierを使用してsbtをインストールするためのコマンドを実行します。**  
-   https://www.scala-sbt.org/download/　からstbをダウンロード
+1. **Coursierを使用してsbtをインストールするためのコマンドを実行します。**
+   以下からstbをダウンロード
+   https://www.scala-sbt.org/download/
 
-2. **ダウンロードが正しく行われたか確認します。**  
+3. **ダウンロードが正しく行われたか確認します。**  
    Coursierのヘルプを表示するために、以下のコマンドを実行します。
 
    ```bash
@@ -23,9 +24,9 @@
    Command 'cs' not found, but can be installed with:
    ```
 
-   これはPATHにCoursierが追加されていないためです。
+   PATHにCoursierが追加する必要がある。
 
-3. **PATHにCoursierを追加するコマンド**  
+4. **PATHにCoursierを追加するコマンド**  
    CoursierをPATHに追加するには、以下のコマンドを実行します。
 
    ```bash
