@@ -1,3 +1,5 @@
+#これをやる
+https://amzn.to/4hyvQQk
 # Scala 環境設定手順 (WSL on Windows 11)
 
 ## 環境条件
