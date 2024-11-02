@@ -48,7 +48,7 @@
 2. **プロジェクトディレクトリに移動します。**
 
    ```bash
-   cd <your_project_name>
+   cd ~/Functional-Programinng/scala-3-project-template
    ```
 
 3. **プロジェクトをビルドします。**
